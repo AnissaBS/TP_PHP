@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('tableau.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cambria', 'Cochin', 'Georgia';
+}
+
+h1{
+    text-decoration: underline;
+    float: right;
+    margin-right: 20%;
+    margin-top: 12%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid 50%;
+    margin: auto;
+}
+
+button{
+    background-color: rgba(177, 177, 177, 0.417);
+    box-shadow: 2px 2px 2px rgb(48, 48, 48);
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: rgba(107, 107, 107, 0.24);
+    box-shadow: 2px 3px 2px rgb(48, 48, 48);
+}
+
+/* Exercice 1 */
+.ex1{
+    font-size: 20px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+.retour1{
+    float: right;
+    margin-top: 35%;
+    margin-left: 40%;
+}
+
+/* Exercice 2 */
+.ex2{
+    font-size: 20px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+.retour2{
+    float: right;
+    margin-top: 37%;
+    margin-left: 5%;
+}
+
+
+/* Exercice 3 */
+.ex3{
+    font-size: 20px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+.retour3{
+    float: right;
+    margin-top: 37%;
+    margin-left: 10%;
+}

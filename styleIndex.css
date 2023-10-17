@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('maths.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cambria', 'Cochin', 'Georgia';
+}
+
+h1{
+    color: rgb(48, 48, 48);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5%;
+}
+
+a{
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+    margin: auto;
+}
+
+/* a:hover{
+    font-weight: bold;
+} */
+
+
+.boutons{
+    margin-left: 60%;
+    margin-top: 7%;
+}
+
+button{
+    background-color: rgba(177, 177, 177, 0.245);
+    box-shadow: 2px 2px 2px rgb(48, 48, 48);
+    width: 250px;
+    height: 100px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+}
+
+button:hover{
+    background-color: rgba(107, 107, 107, 0.24);
+    box-shadow: 3px 3px 2px rgb(48, 48, 48);
+}
