@@ -16,10 +16,10 @@
     <h1>TP 2</h1>
         <?php
             $jourAng = strftime("%A")."<br>";
-            echo "Voici le jour en Anglais : $jourAng";
+            echo "Voici le jour actuel en Anglais : $jourAng";
             setLocale(LC_TIME, "french");
             $jourFr = strftime("%A")."<br>";
-            echo "Voici le jour en Français : $jourFr";
+            echo "Voici le jour actuel en Français : $jourFr";
         ?>
 
 
@@ -35,14 +35,25 @@
             $age = $anneeAct - $anneeDeNaissance;
 
             // Afficher l'âge de la personne
-            echo "L'âge de la personne est : " . $age . " ans";
+            echo "Né(e) en ".$anneeDeNaissance.", cette personne a ".$age.".";
+            // ou : echo "Né(e) en $anneeDeNaissance, cette personne a $age.";
         ?>
 
 
     <h1>TP 4</h1>
         <?php
             $date = "15/10/2023";
-            echo date("Y-m-j");
+            $timestamp = strtotime($date);
+            $dateFormat = date("Y-m-d",$timestamp);
+            echo "Date formatée : $dateFormat";
+
+            echo "<br>";
+
+            // Autre alternative :
+            $d = "29/07/2018";
+            $dt = DateTime::createFromFormat('d/m/Y',$d);
+            $dateAF = $dt->format('Y-m-d');
+            echo "Autre alternative : $dateAF";
         ?>
 </body>
 </html>
