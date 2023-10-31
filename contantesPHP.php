@@ -35,6 +35,7 @@
 
     $nom = "MARIE ROSE";
     echo strlen($nom);
+
 ?>
 
 </body>
